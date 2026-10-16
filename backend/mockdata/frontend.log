@@ -1,0 +1,134 @@
+2026-10-05T00:00:00.604Z ERROR [Angular] GlobalErrorHandler UnhandledError errorType=ChunkLoadError component=ReportComponent browser=Firefox/143.0 sessionId=672bb3f87217445f8ecf
+2026-10-05T00:00:01.901Z ERROR [Angular] HttpClient API response url=/api/v1/customers status=500 durationMs=931 sessionId=19cf5283548b4ca4b4fd
+2026-10-05T00:00:03.219Z WARN [Angular] AuthGuard route=/customers authenticated=false user=user00747
+2026-10-05T00:00:03.457Z ERROR [Angular] HttpInterceptor API request failed method=GET url=/api/v1/reports reason=connection-reset retryExhausted=true
+2026-10-05T00:00:04.640Z ERROR [Angular] HttpClient API response url=/api/v1/orders status=503 durationMs=1106 sessionId=64e21fcfbc6e41c7b7c7
+2026-10-05T00:00:05.742Z WARN [Angular] HttpInterceptor API request retry attempt=2 url=/api/v1/reports reason=connection-reset
+2026-10-05T00:00:06.872Z ERROR [Angular] HttpClient API response url=/api/v1/reports status=504 durationMs=5000 sessionId=4f34b6207d5941a49864
+2026-10-05T00:00:07.375Z ERROR [Angular] HttpClient API response url=/api/v1/inventory status=500 durationMs=1762 sessionId=cc2b1124f5ee4129b823
+2026-10-05T00:00:07.776Z ERROR [Angular] GlobalErrorHandler UnhandledError errorType=TypeError component=InventoryComponent browser=Chrome/154.0.0.0
+2026-10-05T00:00:08.886Z INFO [Angular] AuthGuard route=/inventory authenticated=true user=user01714
+2026-10-05T00:00:09.665Z ERROR [Angular] AuthGuard route=/orders authenticated=false user=user00869 reason=unauthorized
+2026-10-05T00:00:10.694Z ERROR [Angular] HttpClient API response url=/api/v1/reports status=500 durationMs=4965 sessionId=3e1c2de9855a49639a4b
+2026-10-05T00:00:10.964Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=POST url=/api/v1/reports reason=NetworkError traceId=0033cee0c2594951aa1c9054158bad6a
+2026-10-05T00:00:11.089Z WARN [Angular] HttpInterceptor API request retry attempt=3 url=/api/v1/reports reason=timeout
+2026-10-05T00:00:11.451Z ERROR [Angular] GlobalErrorHandler UnhandledError errorType=ExpressionChangedAfterItHasBeenCheckedError component=ReportComponent
+2026-10-05T00:00:12.535Z WARN [Angular] Performance LCP=4864ms FCP=3318ms TTFB=1970ms page=/reports thresholdExceeded=true
+2026-10-05T00:00:12.919Z ERROR [Angular] Router NavigationError url=/inventory errorType=NavigationError navigationDurationMs=613
+2026-10-05T00:00:14.248Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=POST url=/api/v1/inventory reason=connection-reset
+2026-10-05T00:00:14.311Z INFO [Angular] AuthGuard route=/inventory authenticated=true user=user01506
+2026-10-05T00:00:15.199Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=PUT url=/api/v1/inventory reason=timeout
+2026-10-05T00:00:15.895Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=PUT url=/api/v1/inventory reason=NetworkError
+2026-10-05T00:00:16.151Z WARN [Angular] AuthGuard route=/customers authenticated=false user=user00450
+2026-10-05T00:00:16.724Z INFO [Angular] Router NavigationEnd url=/customers navigationDurationMs=27 sessionId=e2ba8ea892564d8fbeab
+2026-10-05T00:00:16.906Z ERROR [Angular] GlobalErrorHandler UnhandledError errorType=ChunkLoadError component=CustomerComponent browser=Firefox/143.0
+2026-10-05T00:00:17.745Z ERROR [Angular] Router NavigationError id=74772 url=/dashboard errorType=NavigationError
+2026-10-05T00:00:18.533Z ERROR [Angular] GlobalErrorHandler UnhandledError errorType=ChunkLoadError component=ReportComponent browser=Firefox/143.0 sessionId=672bb3f87217445f8ecf
+2026-10-05T00:00:19.529Z INFO [Angular] Router NavigationEnd url=/dashboard navigationDurationMs=155 sessionId=43e9d9cf15d849408d4d
+2026-10-05T00:00:19.677Z ERROR [Angular] HttpClient API response url=/api/v1/reports status=502 durationMs=4118
+2026-10-05T00:00:20.235Z ERROR [Angular] Router NavigationError id=34086 url=/orders errorType=NavigationError
+2026-10-05T00:00:21.242Z ERROR [Angular] Router NavigationError id=12077 url=/reports errorType=NavigationError
+2026-10-05T00:00:22.184Z WARN [Angular] HttpInterceptor API request retry attempt=2 url=/api/v1/orders reason=connection-reset
+2026-10-05T00:00:22.955Z ERROR [Angular] HttpInterceptor API request retry attempt=3 url=/api/v1/payments reason=network-error retryExhausted=true
+2026-10-05T00:00:23.062Z ERROR [Angular] AuthGuard route=/reports authenticated=false user=user00891 reason=unauthorized
+2026-10-05T00:00:24.263Z INFO [Angular] AuthGuard route=/inventory authenticated=true user=user01747
+2026-10-05T00:00:24.334Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=POST url=/api/v1/customers reason=NetworkError
+2026-10-05T00:00:24.546Z ERROR [Angular] Router NavigationError id=35578 url=/dashboard errorType=NavigationError
+2026-10-05T00:00:25.297Z ERROR [Angular] HttpClient API response url=/api/v1/inventory status=500 durationMs=3227
+2026-10-05T00:00:26.203Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=GET url=/api/v1/inventory reason=timeout
+2026-10-05T00:00:26.530Z INFO [Angular] Router NavigationEnd url=/inventory navigationDurationMs=464 sessionId=e0097b28814d4dc38478
+2026-10-05T00:00:27.474Z ERROR [Angular] GlobalErrorHandler UnhandledError errorType=ExpressionChangedAfterItHasBeenCheckedError component=OrdersComponent browser=Chrome/154.0.0.0
+2026-10-05T00:00:28.148Z ERROR [Angular] HttpClient API response url=/api/v1/inventory status=503 durationMs=2435
+2026-10-05T00:00:29.043Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=POST url=/api/v1/reports reason=connection-reset
+2026-10-05T00:00:30.223Z WARN [Angular] Performance LCP=4644ms FCP=2632ms TTFB=1942ms page=/inventory thresholdExceeded=true
+2026-10-05T00:00:31.006Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=POST url=/api/v1/reports reason=timeout
+2026-10-05T00:00:31.587Z WARN [Angular] Performance LCP=5368ms FCP=3769ms TTFB=2152ms page=/inventory thresholdExceeded=true
+2026-10-05T00:00:31.838Z INFO [Angular] Router NavigationEnd url=/customers navigationDurationMs=487 sessionId=85f4be90176942af9130
+2026-10-05T00:00:33.027Z ERROR [Angular] HttpClient API response url=/api/v1/customers status=500 durationMs=2389
+2026-10-05T00:00:33.217Z WARN [Angular] HttpInterceptor API request retry attempt=2 url=/api/v1/payments reason=network-error
+2026-10-05T00:00:33.410Z WARN [Angular] Performance LCP=5742ms FCP=3482ms TTFB=2127ms page=/inventory thresholdExceeded=true
+2026-10-05T00:00:33.484Z INFO [Angular] AuthGuard route=/orders authenticated=true user=user00082
+2026-10-05T00:00:34.801Z INFO [Angular] AuthGuard route=/dashboard authenticated=true user=user00676
+2026-10-05T00:00:35.937Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=POST url=/api/v1/customers reason=timeout
+2026-10-05T00:00:37.303Z ERROR [Angular] HttpClient API response url=/api/v1/reports status=502 durationMs=3011
+2026-10-05T00:00:37.900Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=POST url=/api/v1/customers reason=NetworkError
+2026-10-05T00:00:38.760Z WARN [Angular] HttpInterceptor API request retry attempt=1 url=/api/v1/reports reason=timeout
+2026-10-05T00:00:40.072Z ERROR [Angular] Router NavigationError id=75798 url=/orders errorType=NavigationError
+2026-10-05T00:00:41.318Z ERROR [Angular] GlobalErrorHandler UnhandledError errorType=ExpressionChangedAfterItHasBeenCheckedError component=DashboardComponent browser=Firefox/143.0
+2026-10-05T00:00:41.867Z ERROR [Angular] HttpClient API response url=/api/v1/orders status=504 durationMs=5000
+2026-10-05T00:00:43.263Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=GET url=/api/v1/customers reason=connection-reset
+2026-10-05T00:00:43.406Z INFO [Angular] Router NavigationEnd url=/customers navigationDurationMs=343 sessionId=58f3c009c90c4c9ea625
+2026-10-05T00:00:43.557Z ERROR [Angular] HttpClient API response url=/api/v1/customers status=500 durationMs=3484
+2026-10-05T00:00:44.357Z ERROR [Angular] HttpClient API response url=/api/v1/reports status=503 durationMs=3169
+2026-10-05T00:00:44.743Z ERROR [Angular] GlobalErrorHandler UnhandledError errorType=ExpressionChangedAfterItHasBeenCheckedError component=AppComponent browser=Chrome/154.0.0.0
+2026-10-05T00:00:45.924Z INFO [Angular] AuthGuard route=/inventory authenticated=true user=user00658
+2026-10-05T00:00:46.225Z ERROR [Angular] Router NavigationError id=21592 url=/inventory errorType=NavigationError
+2026-10-05T00:00:46.998Z INFO [Angular] Router NavigationEnd url=/orders navigationDurationMs=145 sessionId=c077e589518e427696f6
+2026-10-05T00:00:47.668Z INFO [Angular] AuthGuard route=/dashboard authenticated=true user=user01810
+2026-10-05T00:00:48.976Z ERROR [Angular] GlobalErrorHandler UnhandledError errorType=TypeError component=DashboardComponent browser=Firefox/143.0
+2026-10-05T00:00:49.619Z WARN [Angular] HttpInterceptor API request retry attempt=3 url=/api/v1/orders reason=network-error retryExhausted=true
+2026-10-05T00:00:50.769Z ERROR [Angular] HttpClient API response url=/api/v1/reports status=502 durationMs=2845
+2026-10-05T00:00:51.185Z ERROR [Angular] Router NavigationError id=60337 url=/reports errorType=NavigationError
+2026-10-05T00:00:52.001Z ERROR [Angular] GlobalErrorHandler UnhandledError errorType=ChunkLoadError component=ReportComponent browser=Firefox/143.0
+2026-10-05T00:00:52.924Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=PUT url=/api/v1/customers reason=NetworkError
+2026-10-05T00:00:53.751Z ERROR [Angular] GlobalErrorHandler UnhandledError errorType=NetworkError component=AppComponent browser=Chrome/154.0.0.0
+2026-10-05T00:00:53.920Z ERROR [Angular] Router NavigationError id=57537 url=/orders errorType=NavigationError
+2026-10-05T00:00:54.431Z ERROR [Angular] Router NavigationError id=92954 url=/customers errorType=NavigationError
+2026-10-05T00:00:55.704Z INFO [Angular] Router NavigationEnd url=/dashboard navigationDurationMs=349 sessionId=30de30077ae14f868afe
+2026-10-05T00:00:56.991Z ERROR [Angular] Router NavigationError id=7907 url=/dashboard errorType=NavigationError
+2026-10-05T00:00:57.526Z ERROR [Angular] HttpClient API response url=/api/v1/customers status=503 durationMs=2589
+2026-10-05T00:00:58.003Z WARN [Angular] Performance LCP=5396ms FCP=2793ms TTFB=1156ms page=/customers thresholdExceeded=true
+2026-10-05T00:00:58.592Z INFO [Angular] AuthGuard route=/dashboard authenticated=true user=user01888
+2026-10-05T00:00:59.544Z WARN [Angular] Performance LCP=5095ms FCP=2969ms TTFB=1342ms page=/customers thresholdExceeded=true
+2026-10-05T00:00:59.686Z WARN [Angular] HttpInterceptor API request retry attempt=2 url=/api/v1/reports reason=connection-reset
+2026-10-05T00:01:00.179Z INFO [Angular] AuthGuard route=/reports authenticated=true user=user01296
+2026-10-05T00:01:00.345Z ERROR [Angular] GlobalErrorHandler UnhandledError errorType=NetworkError component=ReportComponent browser=Edge/154.0.0.0
+2026-10-05T00:01:01.085Z WARN [Angular] AuthGuard route=/inventory authenticated=false user=user01729
+2026-10-05T00:01:01.695Z WARN [Angular] Performance LCP=5466ms FCP=2640ms TTFB=1736ms page=/reports thresholdExceeded=true
+2026-10-05T00:01:01.929Z ERROR [Angular] Router NavigationError id=89056 url=/orders errorType=NavigationError
+2026-10-05T00:01:03.119Z INFO [Angular] Router NavigationEnd url=/inventory navigationDurationMs=143 sessionId=aa7cfdc352314c3489d4
+2026-10-05T00:01:03.457Z ERROR [Angular] Router NavigationError id=67205 url=/inventory errorType=NavigationError
+2026-10-05T00:01:03.917Z WARN [Angular] HttpInterceptor API request retry attempt=2 url=/api/v1/orders reason=connection-reset
+2026-10-05T00:01:04.926Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=PUT url=/api/v1/inventory reason=timeout
+2026-10-05T00:01:06.257Z ERROR [Angular] HttpClient API response url=/api/v1/customers status=500 durationMs=2417
+2026-10-05T00:01:06.488Z ERROR [Angular] Router NavigationError id=50713 url=/customers errorType=NavigationError
+2026-10-05T00:01:06.791Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=GET url=/api/v1/customers reason=NetworkError
+2026-10-05T00:01:06.998Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=GET url=/api/v1/customers reason=timeout
+2026-10-05T00:01:07.529Z INFO [Angular] HttpClient API response url=/api/v1/orders status=200 durationMs=288 sessionId=0c88332bbe8943419dcd
+2026-10-05T00:01:08.070Z ERROR [Angular] Router NavigationError id=95881 url=/inventory errorType=NavigationError
+2026-10-05T00:01:08.933Z ERROR [Angular] Router NavigationError id=84929 url=/customers errorType=NavigationError
+2026-10-05T00:01:09.979Z ERROR [Angular] Router NavigationError id=72655 url=/reports errorType=NavigationError
+2026-10-05T00:01:10.687Z WARN [Angular] HttpInterceptor API request retry attempt=1 url=/api/v1/orders reason=network-error
+2026-10-05T00:01:11.621Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=GET url=/api/v1/customers reason=connection-reset
+2026-10-05T00:01:12.508Z INFO [Angular] Router NavigationEnd url=/dashboard navigationDurationMs=287 sessionId=713bc4739a474a399734
+2026-10-05T00:01:13.111Z ERROR [Angular] Router NavigationError id=27232 url=/reports errorType=NavigationError
+2026-10-05T00:01:14.272Z ERROR [Angular] Router NavigationError id=75863 url=/inventory errorType=NavigationError
+2026-10-05T00:01:14.632Z INFO [Angular] AuthGuard route=/reports authenticated=true user=user00957
+2026-10-05T00:01:15.284Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=GET url=/api/v1/customers reason=timeout
+2026-10-05T00:01:15.974Z ERROR [Angular] HttpClient API response url=/api/v1/reports status=504 durationMs=5000
+2026-10-05T00:01:16.661Z WARN [Angular] Performance LCP=5096ms FCP=2988ms TTFB=1896ms page=/inventory thresholdExceeded=true
+2026-10-05T00:01:18.046Z WARN [Angular] HttpInterceptor API request retry attempt=1 url=/api/v1/orders reason=network-error
+2026-10-05T00:01:18.471Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=GET url=/api/v1/customers reason=NetworkError
+2026-10-05T00:01:19.294Z INFO [Angular] Router NavigationEnd url=/customers navigationDurationMs=357 sessionId=01c4f96579d54e5fbf57
+2026-10-05T00:01:19.421Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=POST url=/api/v1/inventory reason=connection-reset
+2026-10-05T00:01:19.875Z WARN [Angular] Performance LCP=6018ms FCP=2331ms TTFB=1431ms page=/orders thresholdExceeded=true
+2026-10-05T00:01:20.456Z ERROR [Angular] Router NavigationError id=59058 url=/dashboard errorType=NavigationError
+2026-10-05T00:01:21.695Z ERROR [Angular] Router NavigationError id=49974 url=/dashboard errorType=NavigationError
+2026-10-05T00:01:22.583Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=GET url=/api/v1/inventory reason=timeout
+2026-10-05T00:01:23.895Z WARN [Angular] Performance LCP=6026ms FCP=3370ms TTFB=2131ms page=/customers thresholdExceeded=true
+2026-10-05T00:01:24.350Z INFO [Angular] Router NavigationEnd url=/customers navigationDurationMs=351 sessionId=0c7d380822b74beca084
+2026-10-05T00:01:24.649Z ERROR [Angular] HttpClient API response url=/api/v1/inventory status=500 durationMs=2581
+2026-10-05T00:01:24.909Z ERROR [Angular] Router NavigationError id=25211 url=/customers errorType=NavigationError
+2026-10-05T00:01:25.853Z ERROR [Angular] HttpClient API response url=/api/v1/reports status=503 durationMs=3513
+2026-10-05T00:01:26.897Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=GET url=/api/v1/inventory reason=NetworkError
+2026-10-05T00:01:27.872Z INFO [Angular] AuthGuard route=/orders authenticated=true user=user01179
+2026-10-05T00:01:28.601Z INFO [Angular] Router NavigationEnd url=/inventory navigationDurationMs=693 sessionId=6b3f2589f6604880b211
+2026-10-05T00:01:29.096Z ERROR [Angular] Router NavigationError id=90943 url=/inventory errorType=NavigationError
+2026-10-05T00:01:29.347Z ERROR [Angular] Router NavigationError id=37500 url=/orders errorType=NavigationError
+2026-10-05T00:01:29.824Z INFO [Angular] AuthGuard route=/dashboard authenticated=true user=user01953
+2026-10-05T00:01:30.993Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=PUT url=/api/v1/orders reason=timeout
+2026-10-05T00:01:31.724Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=PUT url=/api/v1/orders reason=NetworkError
+2026-10-05T00:01:31.948Z WARN [Angular] HttpInterceptor API request retry attempt=2 url=/api/v1/orders reason=network-error
+2026-10-05T00:01:32.001Z ERROR [Angular] HttpInterceptor OutgoingRequest failed method=GET url=/api/v1/customers reason=connection-reset
+2026-10-05T00:01:32.370Z INFO [Angular] Router NavigationEnd url=/reports navigationDurationMs=545 sessionId=0b9b82ac91974bb5986e
+2026-10-05T00:01:33.235Z INFO [Angular] AuthGuard route=/orders authenticated=true user=user00714

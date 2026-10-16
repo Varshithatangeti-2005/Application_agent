@@ -1,0 +1,12 @@
+google-adk
+google-cloud-bigquery
+google-auth
+pydantic
+pydantic-settings
+python-dotenv
+sqlglot
+pytest
+fastapi
+uvicorn
+azure-identity
+httpx

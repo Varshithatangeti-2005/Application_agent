@@ -1,0 +1,197 @@
+2026-10-05T00:00:00.407Z INFO  9227 --- [prod-app-05] [541e4467c83c45baab20a422124cd79f,d4d244fd6c9e4f7e] com.miracle.reporting.ReportService                            : Request completed successfully
+2026-10-05T00:00:00.440Z DEBUG 1633 --- [prod-app-04] [422efee134c14642ad6596671cd8b810,c7080879b0db4c03] com.zaxxer.hikari.pool.HikariPool                              : Hikari connection borrowed requestId=246f5f567ebe4c069807
+05-Oct-2026 00:00:00.515 [INFO] [org.apache.catalina.core.StandardService] Pausing ProtocolHandler ["http-nio-8080"]
+2026-10-05T00:00:00.730Z INFO  9786 --- [prod-app-08] [744bd33422ef417aa162ece61bf7e9e7,b216893b460e4c03] com.miracle.customer.CustomerService                           : JWT authentication successful
+2026-10-05T00:00:01.627Z DEBUG 4302 --- [prod-app-02] [cfa81af130474cb89656eb14aacd00e8,00dc7c386c19430e] org.apache.catalina.connector.Request                          : Transaction synchronization registered requestId=5b31c78d5e3a409088aa
+05-Oct-2026 00:00:01.877 [INFO] [org.apache.catalina.core.StandardService] Starting ProtocolHandler ["http-nio-8080"]
+2026-10-05T00:00:02.278Z ERROR 9110 --- [prod-app-08] [fbaf26e1b2cf40c4946e31f8c955e7b5,4fa432916bcd479f] org.apache.catalina.connector.ClientAbortException             : Retrying failed request
+05-Oct-2026 00:00:02.413 [INFO] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+2026-10-05T00:00:02.893Z INFO  5327 --- [prod-app-02] [5c452486f0ba45ea9adc86d5f92d69bd,299807efd4fa463b] com.miracle.auth.JwtAuthenticationFilter                       : Report generation completed
+05-Oct-2026 00:00:03.718 [INFO] [org.apache.catalina.core.StandardService] Starting ProtocolHandler ["http-nio-8080"]
+10.20.28.84 - - [05/Oct/2026:00:00:04 +0000] "PUT /api/v1/inventory HTTP/1.1" 500 386116 "-" "Mozilla/5.0" durationMs=1012 requestId=60e7f058ce6b4d3e8074
+10.20.10.91 - - [05/Oct/2026:00:00:04 +0000] "POST /api/v1/customers HTTP/1.1" 200 283858 "-" "Mozilla/5.0" durationMs=2148 requestId=62c0cce20dc44c619744
+2026-10-05T00:00:05.778Z ERROR 7803 --- [prod-app-08] [fb1c9c5fbffa41008b8d3f0bfb29c6d8,effa119005784d0d] org.apache.catalina.connector.ClientAbortException             : Downstream service returned HTTP 503
+05-Oct-2026 00:00:06.588 [INFO] [org.apache.catalina.core.StandardService] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2026-10-05T00:00:07.557Z INFO  9738 --- [prod-app-08] [92a93fa032c84c0dad9a22369c8e0652,e5b781abbc284ad3] com.miracle.orders.OrderService                                : JWT authentication successful
+05-Oct-2026 00:00:08.449 [INFO] [org.apache.catalina.core.StandardService] Pausing ProtocolHandler ["http-nio-8080"]
+10.20.8.163 - - [05/Oct/2026:00:00:08 +0000] "PATCH /api/v1/reports HTTP/1.1" 201 157246 "-" "Mozilla/5.0" durationMs=569 requestId=fab6c0cce01744a4824f
+10.20.2.220 - - [05/Oct/2026:00:00:09 +0000] "GET /api/v1/reports HTTP/1.1" 400 492505 "-" "Mozilla/5.0" durationMs=552 requestId=13fdd4ebed6c4c9a911f
+2026-10-05T00:00:09.667Z INFO  2821 --- [prod-app-02] [38bcd1fa563c42f2a5d3eb1c9386b7d9,7c37b50e63444b04] com.miracle.orders.OrderService                                : Cache refresh completed
+2026-10-05T00:00:10.673Z DEBUG 4243 --- [prod-app-02] [8cbe78f56e0b47ac94b896c1454b81df,7ab0f07a653540a1] org.springframework.web.servlet.DispatcherServlet              : HTTP response committed requestId=2efcbda183ca466fb705
+2026-10-05T00:00:10.946Z DEBUG 5795 --- [prod-app-01] [3d2c552dd24b444f8f5bb90474c9ca3f,bdf2661ff007461e] org.springframework.jdbc.core.JdbcTemplate                     : Transaction synchronization registered requestId=83e1a677e51d4b12bd97
+05-Oct-2026 00:00:11.679 [INFO] [org.apache.catalina.core.StandardService] Starting ProtocolHandler ["http-nio-8080"]
+2026-10-05T00:00:11.955Z DEBUG 2006 --- [prod-app-07] [fd61be649019455988dc45644f60ff5b,31e6bd522101438b] com.zaxxer.hikari.pool.HikariPool                              : Transaction synchronization registered requestId=5fe3300684ff4d36a8d8
+05-Oct-2026 00:00:12.025 [INFO] [org.apache.catalina.core.StandardService] Pausing ProtocolHandler ["http-nio-8080"]
+2026-10-05T00:00:12.153Z DEBUG 2415 --- [prod-app-08] [bf4cb4cbfdac4f95aec74a1bbf678087,2956f90be9234002] org.hibernate.SQL                                              : Hikari connection borrowed requestId=864cacd19d1c45fb9cf7
+2026-10-05T00:00:13.212Z INFO  3357 --- [prod-app-06] [e6623fba57024a7aabfe0afe97f51a9e,fb263c4633e64f14] com.miracle.customer.CustomerService                           : Transaction committed
+10.20.3.130 - - [05/Oct/2026:00:00:14 +0000] "PUT /api/v1/customers HTTP/1.1" 200 182049 "-" "Mozilla/5.0" durationMs=1444 requestId=b0a7517853e948a99bc8
+10.20.21.232 - - [05/Oct/2026:00:00:14 +0000] "POST /api/v1/customers HTTP/1.1" 204 582837 "-" "Mozilla/5.0" durationMs=160 requestId=f1a15c05a877451b87e7
+2026-10-05T00:00:15.721Z DEBUG 3935 --- [prod-app-01] [6123525c5925455aa7c698265587fefb,108d5b7e110242a0] org.springframework.web.servlet.DispatcherServlet              : Hikari connection returned requestId=254e47563c8a47c48254
+2026-10-05T00:00:16.817Z DEBUG 7897 --- [prod-app-07] [7ade1d4f4f4b4f89b183ab8c2ee2c81a,e53328d30bea4462] org.springframework.security.web.FilterChainProxy              : Transaction synchronization registered requestId=984e67968df84e3d8444
+2026-10-05T00:00:17.399Z INFO  3640 --- [prod-app-06] [4046cca256b44c9883c5667ee476098e,f535e72eba074f9b] com.miracle.auth.JwtAuthenticationFilter                       : Transaction committed
+2026-10-05T00:00:17.849Z WARN  4957 --- [prod-app-01] [568eb72a62194978aee132d6d9f617aa,743f50cf73524952] org.apache.catalina.connector.ClientAbortException             : Retrying failed request
+2026-10-05T00:00:17.989Z DEBUG 8929 --- [prod-app-04] [372c6394e0704a70a443eb773f5cb280,bc913ea23d4745e5] org.apache.catalina.connector.Request                          : Transaction synchronization registered requestId=749fb295b6684c23baf3
+2026-10-05T00:00:18.492Z DEBUG 9788 --- [prod-app-06] [83ac261e14a74178b8e3b6ea7406b716,dd2b3d61d61d49c9] org.springframework.web.servlet.DispatcherServlet              : SQL statement prepared requestId=53ce7693aaa643d68762
+2026-10-05T00:00:18.824Z WARN  9941 --- [prod-app-06] [03e4e8a0bca94f6e93a591fc148f93be,0d142254688e4346] org.springframework.cache.support.SimpleCacheErrorHandler      : Cache backend temporarily unavailable
+2026-10-05T00:00:19.206Z INFO  4733 --- [prod-app-06] [89b48d34d3c84e018457a319dd160f0c,c850eac2905547bc] com.miracle.customer.CustomerService                           : Cache refresh completed
+2026-10-05T00:00:19.987Z DEBUG 4139 --- [prod-app-08] [10eba23f3491410b8fe6353f6b97f52c,7151aaab801947a0] org.springframework.web.servlet.DispatcherServlet              : Hikari connection borrowed requestId=90ad5c14d7e0476fac1e
+05-Oct-2026 00:00:21.068 [INFO] [org.apache.catalina.core.StandardService] Resuming ProtocolHandler ["http-nio-8080"]
+05-Oct-2026 00:00:21.892 [INFO] [org.apache.catalina.core.StandardService] Starting ProtocolHandler ["http-nio-8080"]
+2026-10-05T00:00:22.153Z DEBUG 8903 --- [prod-app-07] [d65e5eff369e4bc3906684c3c437eecc,f9d5296021c84d54] org.hibernate.SQL                                              : SQL statement prepared requestId=bd0926f380c64f31b022
+2026-10-05T00:00:22.382Z DEBUG 7856 --- [prod-app-03] [d645ad5bc84348978e6d5af9aa6c2e7e,b3dbc91d89374f20] org.springframework.jdbc.core.JdbcTemplate                     : Transaction synchronization registered requestId=ea4d9884f2cb49ffa49e
+05-Oct-2026 00:00:22.983 [INFO] [org.apache.catalina.core.StandardService] Pausing ProtocolHandler ["http-nio-8080"]
+10.20.5.150 - - [05/Oct/2026:00:00:23 +0000] "DELETE /api/v1/inventory HTTP/1.1" 429 385864 "-" "Mozilla/5.0" durationMs=1101 requestId=d6503e1d15fb443ebf3e
+2026-10-05T00:00:23.851Z WARN  5928 --- [prod-app-04] [86aa920662df4079bf0f8981226d3a22,0a6c739228024e17] org.apache.catalina.connector.ClientAbortException             : Downstream service returned HTTP 503
+2026-10-05T00:00:24.215Z ERROR 8518 --- [prod-app-08] [e3619b720fde439e849b4e624e87b911,1c87bdb281d347eb] org.springframework.web.client.RestTemplate                    : Cache backend temporarily unavailable
+2026-10-05T00:00:25.081Z INFO  4503 --- [prod-app-07] [59418297c1a949f7bef066fccde0833d,4ec38242374e42eb] com.miracle.orders.OrderService                                : Transaction committed
+05-Oct-2026 00:00:26.045 [INFO] [org.apache.catalina.core.StandardService] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2026-10-05T00:00:26.361Z INFO  2309 --- [prod-app-04] [25f275d74b5648a0ab5153b7e49859b2,4797d210c9834c75] com.miracle.reporting.ReportService                            : Request completed successfully
+10.20.3.55 - - [05/Oct/2026:00:00:26 +0000] "PATCH /api/v1/reports HTTP/1.1" 200 318066 "-" "Mozilla/5.0" durationMs=1682 requestId=88c771e3c0a54b6bbab8
+10.20.1.203 - - [05/Oct/2026:00:00:27 +0000] "PUT /api/v1/inventory HTTP/1.1" 200 168870 "-" "Mozilla/5.0" durationMs=1113 requestId=7d8a743bfc224dfc941a
+05-Oct-2026 00:00:27.666 [INFO] [org.apache.catalina.core.StandardService] Pausing ProtocolHandler ["http-nio-8080"]
+2026-10-05T00:00:27.974Z WARN  1986 --- [prod-app-07] [334061ff434e45f7a49fb28aba8c7be7,a3a1034df48f487c] org.springframework.web.client.RestTemplate                    : Cache backend temporarily unavailable
+05-Oct-2026 00:00:28.806 [INFO] [org.apache.catalina.core.StandardService] Starting ProtocolHandler ["http-nio-8080"]
+2026-10-05T00:00:29.274Z WARN  3682 --- [prod-app-07] [82c3ad998390457cbedeb71ae01a3e57,376519373e38417e] org.apache.catalina.connector.ClientAbortException             : Client aborted connection
+05-Oct-2026 00:00:30.130 [INFO] [org.apache.catalina.core.StandardService] Resuming ProtocolHandler ["http-nio-8080"]
+2026-10-05T00:00:30.986Z INFO  2199 --- [prod-app-08] [f0f1fe47d8b94960b8810716737c11f4,68cda81c03a6493b] com.miracle.orders.OrderService                                : Report generation completed
+10.20.8.235 - - [05/Oct/2026:00:00:31 +0000] "GET /api/v1/inventory HTTP/1.1" 200 25657 "-" "Mozilla/5.0" durationMs=393 requestId=8a46ddf6681e43838f93
+05-Oct-2026 00:00:31.452 [INFO] [org.apache.catalina.core.StandardService] Starting ProtocolHandler ["http-nio-8080"]
+10.20.25.143 - - [05/Oct/2026:00:00:32 +0000] "DELETE /api/v1/payments HTTP/1.1" 201 387485 "-" "Mozilla/5.0" durationMs=986 requestId=ba25d388d27e4e7cb86d
+2026-10-05T00:00:33.018Z WARN  3685 --- [prod-app-01] [aed4568c2bd944378eb003a653cb3dea,4fd297c9a2294ec5] org.apache.catalina.connector.ClientAbortException             : Slow downstream response
+2026-10-05T00:00:33.849Z DEBUG 4337 --- [prod-app-07] [1a3c05516e534c1aa2cbcb12aedee178,3e9925e830814a1b] org.springframework.jdbc.core.JdbcTemplate                     : Hikari connection borrowed requestId=556f9f20d5d2428e862f
+05-Oct-2026 00:00:34.846 [INFO] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+05-Oct-2026 00:00:35.009 [INFO] [org.apache.catalina.core.StandardService] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2026-10-05T00:00:36.031Z DEBUG 3436 --- [prod-app-05] [6752ec3b644c47289653db4ad78e12a9,18d719e559904ff4] org.hibernate.SQL                                              : Hikari connection borrowed requestId=7b11bcf411a340f29496
+2026-10-05T00:00:36.385Z INFO  3356 --- [prod-app-03] [e57b0684431a4dbc8e8aa022dab30d21,a6c8da8a12f14f6a] com.miracle.customer.CustomerService                           : JWT authentication successful
+2026-10-05T00:00:36.796Z WARN  2707 --- [prod-app-03] [7a82fbdb167942cf800bddce592f57ef,de4f58ef55834578] org.springframework.web.client.RestTemplate                    : Retrying failed request
+2026-10-05T00:00:37.781Z DEBUG 3473 --- [prod-app-01] [fe23fb2592a446c1bbd482f979ca0e91,b32e24ced7cb403e] org.springframework.web.servlet.DispatcherServlet              : Security filter chain invoked requestId=06225b65e2a641e6a3bd
+2026-10-05T00:00:37.812Z INFO  4691 --- [prod-app-03] [6d48169a864f46928026f58197f8b16e,781482042c864f2c] com.miracle.customer.CustomerService                           : Cache refresh completed
+05-Oct-2026 00:00:38.217 [INFO] [org.apache.catalina.core.StandardService] Pausing ProtocolHandler ["http-nio-8080"]
+2026-10-05T00:00:38.516Z INFO  7152 --- [prod-app-02] [bc96fa39b8fb4421ab8d70994962a0ae,7c34f1347d0f4038] com.miracle.customer.CustomerService                           : Report generation completed
+05-Oct-2026 00:00:39.087 [INFO] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+10.20.3.130 - - [05/Oct/2026:00:00:39 +0000] "DELETE /api/v1/customers HTTP/1.1" 201 298784 "-" "Mozilla/5.0" durationMs=881 requestId=2cb6559536ba41adbb26
+2026-10-05T00:00:39.182Z INFO  8153 --- [prod-app-07] [a2c8b40fa7cb4f2bbb94b36d81818ea5,53ad3d537a804914] com.miracle.orders.OrderService                                : JWT authentication successful
+2026-10-05T00:00:39.241Z INFO  8041 --- [prod-app-08] [d653ac70dd484f6784cc2ba3b28791df,e2ad0ec9f82f4fec] com.miracle.reporting.ReportService                            : Report generation completed
+05-Oct-2026 00:00:39.641 [INFO] [org.apache.catalina.core.StandardService] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2026-10-05T00:00:40.489Z WARN  2214 --- [prod-app-04] [321fab6a40c44afbaf0ecbcfbc23ec55,8a9b84a107ea427b] org.springframework.web.client.RestTemplate                    : Slow downstream response
+2026-10-05T00:00:40.991Z INFO  4243 --- [prod-app-04] [920ad85bb18a4d0db686494e0ead2d17,d33c042f3b19482b] com.miracle.auth.JwtAuthenticationFilter                       : JWT authentication successful
+2026-10-05T00:00:41.510Z WARN  4473 --- [prod-app-05] [fd3126b8fa584a5fb9146dfce85e0f25,bb6c806919f14459] org.apache.catalina.connector.ClientAbortException             : Slow downstream response
+2026-10-05T00:00:42.010Z WARN  1382 --- [prod-app-02] [f705e3ec013c43bab4c4313ed53ec099,e2d939ad64744dbd] org.springframework.cache.support.SimpleCacheErrorHandler      : Cache backend temporarily unavailable
+10.20.24.125 - - [05/Oct/2026:00:00:42 +0000] "PATCH /api/v1/reports HTTP/1.1" 200 650862 "-" "Mozilla/5.0" durationMs=828 requestId=c1b58b57d3894e9f9e6a
+2026-10-05T00:00:43.694Z ERROR 3886 --- [prod-app-01] [1866bf17a1814c2faed533cd4b98d829,9564bc7a94fa4cfb] org.apache.catalina.connector.ClientAbortException             : Cache backend temporarily unavailable
+2026-10-05T00:00:44.418Z DEBUG 4546 --- [prod-app-01] [099a940a33da4046b8328c5148a905c5,ea8570e270334023] org.springframework.web.servlet.DispatcherServlet              : Hikari connection returned requestId=454d084c63004948899a
+2026-10-05T00:00:45.284Z DEBUG 1557 --- [prod-app-06] [8a06b0354fe34e68b33b4306bfeb3c61,5d69c04a272545eb] org.springframework.web.servlet.DispatcherServlet              : HTTP response committed requestId=e14ae495f2a645089017
+2026-10-05T00:00:46.302Z INFO  8394 --- [prod-app-07] [23e8c2ad79fb45018a56fe4eea3e9305,26ebc248360245f9] com.miracle.auth.JwtAuthenticationFilter                       : JWT authentication successful
+2026-10-05T00:00:46.981Z ERROR 6027 --- [prod-app-01] [77925dc537dc4a9d8d0d39b6ae00b947,6b10b4022c47488e] org.apache.catalina.connector.ClientAbortException             : Retrying failed request
+10.20.10.91 - - [05/Oct/2026:00:00:47 +0000] "GET /api/v1/payments HTTP/1.1" 200 147914 "-" "Mozilla/5.0" durationMs=190 requestId=ca822a1244b741b983cd
+10.20.10.147 - - [05/Oct/2026:00:00:48 +0000] "PATCH /api/v1/payments HTTP/1.1" 200 773285 "-" "Mozilla/5.0" durationMs=2201 requestId=97bd1fe1736a4cdeac5d
+10.20.25.146 - - [05/Oct/2026:00:00:49 +0000] "DELETE /api/v1/payments HTTP/1.1" 200 628706 "-" "Mozilla/5.0" durationMs=135 requestId=04af368baf8a4f68b2c7
+2026-10-05T00:00:50.066Z INFO  8720 --- [prod-app-06] [c23606b92fa4493eb3c7480c566f0766,b7d4dc05fb2c4fda] com.miracle.customer.CustomerService                           : Request completed successfully
+05-Oct-2026 00:00:50.692 [INFO] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+05-Oct-2026 00:00:51.774 [INFO] [org.apache.catalina.core.StandardService] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2026-10-05T00:00:52.201Z INFO  7316 --- [prod-app-02] [578472e8812a44d4a45ececfdf35cb9c,2fb20eaed99f4b0c] com.miracle.orders.OrderService                                : Transaction committed
+10.20.6.160 - - [05/Oct/2026:00:00:52 +0000] "PATCH /api/v1/customers HTTP/1.1" 200 752557 "-" "Mozilla/5.0" durationMs=1025 requestId=945ad78e9f2141ec891f
+2026-10-05T00:00:53.574Z INFO  5068 --- [prod-app-07] [f9156fb70cd6446f8a2d474b2d95cde4,bb50802aadeb4860] com.miracle.auth.JwtAuthenticationFilter                       : Request completed successfully
+2026-10-05T00:00:53.606Z DEBUG 2586 --- [prod-app-05] [b966863df5d041b8bc9a8d119a43f877,ceb0da4d95314851] org.apache.catalina.connector.Request                          : Transaction synchronization registered requestId=0e3db7ed82e64ba3a554
+10.20.10.198 - - [05/Oct/2026:00:00:53 +0000] "PATCH /api/v1/orders HTTP/1.1" 200 677658 "-" "Mozilla/5.0" durationMs=193 requestId=15a8919303614a3d851b
+2026-10-05T00:00:54.873Z INFO  6725 --- [prod-app-03] [41c653637cfe41cf970d020225d6c53b,249ef4416bd44aa1] com.miracle.orders.OrderService                                : Transaction committed
+2026-10-05T00:00:55.284Z DEBUG 8643 --- [prod-app-04] [e28886dc2e6b4a8b8fa867af3904f894,bfd795eecfc04bb4] org.springframework.security.web.FilterChainProxy              : Transaction synchronization registered requestId=812aab8ec1a74edf8013
+05-Oct-2026 00:00:56.155 [INFO] [org.apache.catalina.core.StandardService] Resuming ProtocolHandler ["http-nio-8080"]
+2026-10-05T00:00:57.188Z DEBUG 6510 --- [prod-app-05] [8bb528ee22eb49c992e1994ab67b862d,597624d7174146b3] org.springframework.web.servlet.DispatcherServlet              : Transaction synchronization registered requestId=7e90f3fc840644b2bd1f
+2026-10-05T00:00:58.255Z INFO  2807 --- [prod-app-02] [91b921939c1f4c299c7d0100139b5a1d,d2461381a1634084] com.miracle.customer.CustomerService                           : Request completed successfully
+2026-10-05T00:00:58.798Z ERROR 3678 --- [prod-app-03] [9d4b25073b32426da035624f9fe942df,f0ae87d51f974e83] org.springframework.cache.support.SimpleCacheErrorHandler      : Client aborted connection
+2026-10-05T00:00:59.505Z DEBUG 3865 --- [prod-app-03] [da642c86fdb44306a2e3535af80d622c,7607dba1f23441bb] org.hibernate.SQL                                              : SQL statement prepared requestId=464c36a1f52d46409f4d
+2026-10-05T00:00:59.710Z INFO  7308 --- [prod-app-05] [965a3eaf936f40e5a34ce609c1243394,2d34b701065f45e7] com.miracle.customer.CustomerService                           : Report generation completed
+2026-10-05T00:01:00.351Z INFO  8926 --- [prod-app-07] [a0c129bf73e74dba95d40dd0e797e865,b49f7bef6d644795] com.miracle.orders.OrderService                                : Transaction committed
+2026-10-05T00:01:00.419Z WARN  6346 --- [prod-app-05] [d58fcb265cae472c896047cc6cac0326,d89c3a9dbc1047f8] org.springframework.web.client.RestTemplate                    : Cache backend temporarily unavailable
+2026-10-05T00:01:00.673Z DEBUG 5624 --- [prod-app-04] [bc17f5d497ba4524a00efd5ffbe786c4,384254c198ac4813] org.springframework.jdbc.core.JdbcTemplate                     : Hikari connection borrowed requestId=15db83c750294b9585e8
+05-Oct-2026 00:01:01.211 [INFO] [org.apache.catalina.core.StandardService] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2026-10-05T00:01:01.275Z WARN  8246 --- [prod-app-01] [89a72d0d37464b66af8880adb90fcf69,07568fc519ac4810] org.springframework.cache.support.SimpleCacheErrorHandler      : Cache backend temporarily unavailable
+10.20.6.160 - - [05/Oct/2026:00:01:01 +0000] "POST /api/v1/customers HTTP/1.1" 200 358663 "-" "Mozilla/5.0" durationMs=752 requestId=50f6528235584dbda99b
+2026-10-05T00:01:01.773Z ERROR 9954 --- [prod-app-02] [bea85f330a5145be941dacd02478c1e4,99135a17dbe0425b] org.springframework.web.client.RestTemplate                    : Cache backend temporarily unavailable
+05-Oct-2026 00:01:02.703 [INFO] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+10.20.5.150 - - [05/Oct/2026:00:01:03 +0000] "GET /api/v1/customers HTTP/1.1" 200 438447 "-" "Mozilla/5.0" durationMs=1961 requestId=077bc6a5d4d54a5ea084
+2026-10-05T00:01:03.321Z WARN  2208 --- [prod-app-02] [f38b113a997941af8cabec5f2a9080ff,518eed3df67d44e0] org.apache.catalina.connector.ClientAbortException             : Slow downstream response
+10.20.18.143 - - [05/Oct/2026:00:01:04 +0000] "POST /api/v1/orders HTTP/1.1" 400 188887 "-" "Mozilla/5.0" durationMs=1215 requestId=eb0ab0d494ff43edaeb6
+2026-10-05T00:01:04.545Z INFO  2564 --- [prod-app-03] [7e19598bd61c45b88e437765c3abba3d,79be38f520584b25] com.miracle.customer.CustomerService                           : Transaction committed
+05-Oct-2026 00:01:05.522 [INFO] [org.apache.catalina.core.StandardService] Resuming ProtocolHandler ["http-nio-8080"]
+2026-10-05T00:01:06.533Z DEBUG 9491 --- [prod-app-04] [db5edb888c984587b6b47205ed7158b1,d3be64b8952a49eb] org.hibernate.SQL                                              : Hikari connection returned requestId=0407dbf3056849189aab
+2026-10-05T00:01:06.678Z ERROR 2323 --- [prod-app-04] [ae51c38c0fa34cfb8cfb4b53caf234c8,736345b73cd94b73] org.springframework.cache.support.SimpleCacheErrorHandler      : Retrying failed request
+2026-10-05T00:01:07.112Z INFO  3633 --- [prod-app-04] [3aac917c940a4496b9a94bf58264f8b7,fb03acddfb394ab6] com.miracle.auth.JwtAuthenticationFilter                       : Request completed successfully
+2026-10-05T00:01:07.190Z INFO  1428 --- [prod-app-06] [f62a5c10d2c0450a9e14cf142bcb7f4d,701e2b2a24b24be3] com.miracle.reporting.ReportService                            : Request completed successfully
+2026-10-05T00:01:07.491Z DEBUG 9931 --- [prod-app-04] [38399ed692ec4690b5cc5049986f48ab,e38452e8fd9d43d3] org.springframework.jdbc.core.JdbcTemplate                     : Hikari connection borrowed requestId=58da717a2aec4b398c10
+2026-10-05T00:01:08.394Z DEBUG 2740 --- [prod-app-02] [168164ab3b83431daae916110f5aa47b,4e32c24aea9347b0] com.zaxxer.hikari.pool.HikariPool                              : Request mapped to controller requestId=54c07061c6ac40b7bba0
+10.20.27.16 - - [05/Oct/2026:00:01:08 +0000] "PUT /api/v1/payments HTTP/1.1" 200 284716 "-" "Mozilla/5.0" durationMs=249 requestId=10d40aeff0874f0583e0
+2026-10-05T00:01:09.346Z INFO  9173 --- [prod-app-02] [1195f59ee73c4d77a7bd1ffb796ace2a,873dcb19d3da45d7] com.miracle.orders.OrderService                                : Request completed successfully
+2026-10-05T00:01:09.628Z DEBUG 8123 --- [prod-app-02] [aeb746b20255450cb68c723bd9ab0250,04fa427f591b4f6f] org.apache.catalina.connector.Request                          : Transaction synchronization registered requestId=0c6b5cf244734b9495dc
+05-Oct-2026 00:01:10.722 [INFO] [org.apache.catalina.core.StandardService] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2026-10-05T00:01:11.698Z INFO  3153 --- [prod-app-05] [f6ec0d69eafe43aa91f7005ba0592acf,cef1b3d18c974e48] com.miracle.customer.CustomerService                           : Report generation completed
+10.20.28.87 - - [05/Oct/2026:00:01:12 +0000] "DELETE /api/v1/customers HTTP/1.1" 200 148220 "-" "Mozilla/5.0" durationMs=643 requestId=5737594cbe0f4ad9b7cc
+05-Oct-2026 00:01:12.812 [INFO] [org.apache.catalina.core.StandardService] Resuming ProtocolHandler ["http-nio-8080"]
+05-Oct-2026 00:01:13.425 [INFO] [org.apache.catalina.core.StandardService] Starting ProtocolHandler ["http-nio-8080"]
+2026-10-05T00:01:14.379Z INFO  3664 --- [prod-app-05] [57d632bad8424980b61d74cf2db035bd,44e0d117f2a9499b] com.miracle.orders.OrderService                                : JWT authentication successful
+2026-10-05T00:01:14.430Z WARN  8984 --- [prod-app-01] [7b4fb4446c214afab3b021d25b05670f,bec2d5dc42544c60] org.springframework.cache.support.SimpleCacheErrorHandler      : Retrying failed request
+10.20.25.191 - - [05/Oct/2026:00:01:14 +0000] "PUT /api/v1/orders HTTP/1.1" 404 669965 "-" "Mozilla/5.0" durationMs=2055 requestId=814568c4932449b79fd3
+2026-10-05T00:01:15.120Z ERROR 2231 --- [prod-app-07] [7a00867c253e4ec8884d83fe2f103047,37980a33b8724280] org.springframework.cache.support.SimpleCacheErrorHandler      : Downstream service returned HTTP 503
+2026-10-05T00:01:16.158Z INFO  2078 --- [prod-app-03] [17388a2e77d5406bbbac7bc3f3e80b6d,db0ca852ce754b5c] com.miracle.customer.CustomerService                           : Cache refresh completed
+2026-10-05T00:01:16.491Z WARN  6785 --- [prod-app-02] [7f88b57a0d39404e92578334e47ec9e7,07fe1405003943a8] org.springframework.cache.support.SimpleCacheErrorHandler      : Cache backend temporarily unavailable
+2026-10-05T00:01:16.890Z INFO  2398 --- [prod-app-08] [e56b5324f2e345d2ace6bc8a3228edb5,018383bf2e0641cc] com.miracle.reporting.ReportService                            : Transaction committed
+05-Oct-2026 00:01:17.131 [INFO] [org.apache.catalina.core.StandardService] Resuming ProtocolHandler ["http-nio-8080"]
+2026-10-05T00:01:17.575Z DEBUG 9222 --- [prod-app-05] [c35d38a533a540c18db60fb130dae4e2,42a1dd01587f426e] com.zaxxer.hikari.pool.HikariPool                              : Hikari connection returned requestId=0694b9f636e3491fa63b
+2026-10-05T00:01:18.418Z INFO  7769 --- [prod-app-08] [feb769ab817e4a67843a85d34ce04b6e,e8d89bc1b87a41b4] com.miracle.orders.OrderService                                : JWT authentication successful
+2026-10-05T00:01:18.494Z DEBUG 8254 --- [prod-app-05] [a3b926263b0c41aeab25aa2afcdabe74,44f5f2edaee44aed] org.springframework.security.web.FilterChainProxy              : Transaction synchronization registered requestId=5583f349ecd541929f4a
+05-Oct-2026 00:01:18.697 [INFO] [org.apache.catalina.core.StandardService] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2026-10-05T00:01:19.682Z INFO  7161 --- [prod-app-05] [b62b8648bf5543e3bd398e9c913ae203,dd29f78e0c0d4a54] com.miracle.orders.OrderService                                : Transaction committed
+2026-10-05T00:01:19.773Z DEBUG 8638 --- [prod-app-06] [33b86eefa6a14b99a46d94f49091b912,74fe189472a74449] org.springframework.web.servlet.DispatcherServlet              : Transaction synchronization registered requestId=9cf0c0a82d83482f8264
+2026-10-05T00:01:20.379Z INFO  1019 --- [prod-app-06] [1445e30b2fc5488d826a2414cea98b87,0e2c99a18e664431] com.miracle.orders.OrderService                                : JWT authentication successful
+05-Oct-2026 00:01:20.810 [INFO] [org.apache.catalina.core.StandardService] Starting ProtocolHandler ["http-nio-8080"]
+2026-10-05T00:01:21.510Z INFO  7470 --- [prod-app-01] [e09558cf7233448b8d18e303bc3f8d5a,c2933d166037493a] com.miracle.customer.CustomerService                           : Request completed successfully
+2026-10-05T00:01:22.166Z INFO  9157 --- [prod-app-02] [1021effbe5064d09bb6a2c96f099de3c,5d42090dea1141e5] com.miracle.customer.CustomerService                           : Request completed successfully
+2026-10-05T00:01:22.416Z INFO  6297 --- [prod-app-03] [b5b6be05b6254df38abdad9b9d54b1ef,05dfeda5bd4847a9] com.miracle.reporting.ReportService                            : Report generation completed
+2026-10-05T00:01:23.492Z ERROR 4528 --- [prod-app-05] [5eee48af46b44c7f9469ed5730566312,4fa28cf7e670498e] org.apache.catalina.connector.ClientAbortException             : Downstream service returned HTTP 503
+2026-10-05T00:01:24.426Z ERROR 5703 --- [prod-app-01] [2bf75e7f72d548b78080ddf2fa9c71bf,555f9603263444e4] org.apache.catalina.connector.ClientAbortException             : Client aborted connection
+2026-10-05T00:01:24.489Z WARN  4737 --- [prod-app-05] [10041b97bd804410959ff05a4b01bcf4,3a829e2eabff4e56] org.apache.catalina.connector.ClientAbortException             : Downstream service returned HTTP 503
+05-Oct-2026 00:01:24.804 [INFO] [org.apache.catalina.core.StandardService] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2026-10-05T00:01:25.420Z INFO  8200 --- [prod-app-06] [1c775b9183b449ac842203b1086af6c3,860863a26ea64838] com.miracle.auth.JwtAuthenticationFilter                       : Request completed successfully
+2026-10-05T00:01:25.971Z INFO  4986 --- [prod-app-02] [e2e9da34dc8d452691da184350134c9f,cb4fefe1eee54f89] com.miracle.auth.JwtAuthenticationFilter                       : JWT authentication successful
+2026-10-05T00:01:26.533Z DEBUG 9958 --- [prod-app-08] [b786b1dc3d2a4b29a105cfe944a2f429,f7334708a2834ddf] org.springframework.jdbc.core.JdbcTemplate                     : Hikari connection borrowed requestId=636b846e04d44cb594cb
+2026-10-05T00:01:27.434Z INFO  7484 --- [prod-app-03] [56ffc1342330465e8d123e16eec0cf59,3b363d34263c4de1] com.miracle.auth.JwtAuthenticationFilter                       : Transaction committed
+2026-10-05T00:01:28.411Z INFO  9665 --- [prod-app-01] [6eae3983c64a46c58185642662435ada,f339bde9081d4d1c] com.miracle.auth.JwtAuthenticationFilter                       : JWT authentication successful
+05-Oct-2026 00:01:29.082 [INFO] [org.apache.catalina.core.StandardService] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2026-10-05T00:01:30.061Z DEBUG 2158 --- [prod-app-06] [824eefccb5bd49768a372b5fad35ddd7,60621b56f8b64857] org.springframework.jdbc.core.JdbcTemplate                     : Hikari connection borrowed requestId=33fd0e917c5644989568
+2026-10-05T00:01:30.616Z DEBUG 2438 --- [prod-app-08] [77875cbfe4614116a75e31a108a22de9,3d2f3c0b9ff24618] org.springframework.jdbc.core.JdbcTemplate                     : Hikari connection returned requestId=7ee5af359a5b48f29998
+2026-10-05T00:01:30.904Z DEBUG 5091 --- [prod-app-03] [c5b15b5dca914839bf3a5d59d12aac8a,a4e8f4949da84482] com.zaxxer.hikari.pool.HikariPool                              : Hikari connection returned requestId=b103b54e57c742bba9c1
+10.20.28.163 - - [05/Oct/2026:00:01:31 +0000] "PUT /api/v1/reports HTTP/1.1" 401 234023 "-" "Mozilla/5.0" durationMs=935 requestId=c17b1a4daa9d49489aec
+05-Oct-2026 00:01:31.799 [INFO] [org.apache.catalina.core.StandardService] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2026-10-05T00:01:32.668Z WARN  6375 --- [prod-app-03] [c317826d21ab4b06a42ef8bc53607f53,86007662e0c84cb6] org.apache.catalina.connector.ClientAbortException             : Client aborted connection
+2026-10-05T00:01:33.292Z DEBUG 4564 --- [prod-app-06] [9856cf3c1e414db98dd5321a70c0f7d2,1f43ac9713234959] org.springframework.security.web.FilterChainProxy              : Hikari connection borrowed requestId=b9f35e39a5b44890996b
+2026-10-05T00:01:33.738Z DEBUG 8007 --- [prod-app-01] [0b7904dc929a488fa87b54d4a3f33a76,ae0dd0b5747f4d93] org.springframework.web.servlet.DispatcherServlet              : SQL statement prepared requestId=727239e138ba49509cd1
+10.20.21.115 - - [05/Oct/2026:00:01:33 +0000] "PUT /api/v1/reports HTTP/1.1" 200 749086 "-" "Mozilla/5.0" durationMs=840 requestId=bd5ffa4db9a04cbfa85b
+2026-10-05T00:01:34.145Z DEBUG 7308 --- [prod-app-06] [9b30f224e6a74fc39b8dcaf632a94b09,5179a0364c62409b] org.springframework.security.web.FilterChainProxy              : SQL statement prepared requestId=b8b68b0a57ba4628b68e
+2026-10-05T00:01:34.888Z INFO  9527 --- [prod-app-06] [a8113dfdc3694c2d99508807a5d3a928,4fea487cd9a24f82] com.miracle.reporting.ReportService                            : Report generation completed
+2026-10-05T00:01:35.972Z DEBUG 8820 --- [prod-app-05] [9ec00e7f7c5946cd92adc5f3407be6b4,1373d8525b6f4836] org.apache.catalina.connector.Request                          : Hikari connection returned requestId=ef06945a73f14556bcd7
+05-Oct-2026 00:01:36.463 [INFO] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+05-Oct-2026 00:01:37.493 [INFO] [org.apache.catalina.core.StandardService] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2026-10-05T00:01:38.226Z WARN  7993 --- [prod-app-08] [9a98239aad4243c4b78959024ad63bad,38eea6f18f1b46e4] org.springframework.web.client.RestTemplate                    : Downstream service returned HTTP 503
+2026-10-05T00:01:38.557Z DEBUG 6855 --- [prod-app-01] [dd08970bb76e404292fba2c76ecf9283,2d6855db6f214b32] org.springframework.security.web.FilterChainProxy              : Request mapped to controller requestId=e634f1b61ca648508fd4
+10.20.12.72 - - [05/Oct/2026:00:01:39 +0000] "DELETE /api/v1/orders HTTP/1.1" 200 185114 "-" "Mozilla/5.0" durationMs=1674 requestId=36e560c549664efcba33
+2026-10-05T00:01:39.625Z INFO  8779 --- [prod-app-04] [04034e9ce7654ccaae4ffc20d1dffdfc,1ab64d65321d47c5] com.miracle.orders.OrderService                                : Request completed successfully
+2026-10-05T00:01:39.916Z INFO  1320 --- [prod-app-08] [91e4244034de46a6a7a796ad1e6d42f8,9e63517d9ee043d6] com.miracle.orders.OrderService                                : Request completed successfully
+2026-10-05T00:01:40.835Z WARN  2420 --- [prod-app-03] [bbaaf652108a49108e9f292d29991cd1,c0829610c3454a2c] org.springframework.cache.support.SimpleCacheErrorHandler      : Cache backend temporarily unavailable
+2026-10-05T00:01:41.564Z DEBUG 5938 --- [prod-app-03] [c085a234268c4439991820a5c9b227a9,f3b61f400ecb4a04] org.apache.catalina.connector.Request                          : Hikari connection returned requestId=46a6a900d1154d4586cd
+05-Oct-2026 00:01:42.194 [INFO] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+2026-10-05T00:01:42.585Z DEBUG 1384 --- [prod-app-06] [82fe0971a69e4f47bf14bd2fc78a2960,a5c847545bad4fea] org.springframework.security.web.FilterChainProxy              : Hikari connection returned requestId=421c8657fe254505888c
+10.20.19.92 - - [05/Oct/2026:00:01:43 +0000] "PUT /api/v1/inventory HTTP/1.1" 200 729810 "-" "Mozilla/5.0" durationMs=712 requestId=e410a9a7fb8d41c3aaee
+2026-10-05T00:01:43.322Z DEBUG 9919 --- [prod-app-04] [faf37e06be9c4d2096728e4a978fe3ca,3bdef6d699d84e7c] org.springframework.web.servlet.DispatcherServlet              : Transaction synchronization registered requestId=ef4f831aa7fa4eb8bc39
+10.20.9.149 - - [05/Oct/2026:00:01:43 +0000] "GET /api/v1/customers HTTP/1.1" 200 318076 "-" "Mozilla/5.0" durationMs=1266 requestId=4ab1c976b6d24a58aa6c
+2026-10-05T00:01:43.922Z DEBUG 5932 --- [prod-app-05] [03c2ae16dc1247279c5a383cec47b91a,a723e3c920a04716] org.springframework.web.servlet.DispatcherServlet              : Transaction synchronization registered requestId=d03dc07b6da848459919
+2026-10-05T00:01:44.873Z DEBUG 3925 --- [prod-app-07] [7cff4feec743406db46b2bda88fa2b34,ee2d5c7b850d467d] org.springframework.web.servlet.DispatcherServlet              : Security filter chain invoked requestId=3efb3b106e4b470a8d36
+2026-10-05T00:01:45.058Z DEBUG 5846 --- [prod-app-06] [1b1e1053eb834caa80bc33216f2600d3,917260cea1cd4f6e] org.springframework.jdbc.core.JdbcTemplate                     : Transaction synchronization registered requestId=b29da0b400d143b8ad88
+2026-10-05T00:01:46.092Z INFO  3216 --- [prod-app-03] [26ad297f15cd4172a5a58227b345837f,7d4005a225114b66] com.miracle.reporting.ReportService                            : Request completed successfully
+2026-10-05T00:01:46.762Z WARN  2687 --- [prod-app-05] [47032702ec8d4dca876d3bd8e36a68d8,57123c152507410a] org.springframework.web.client.RestTemplate                    : Downstream service returned HTTP 503
+2026-10-05T00:01:47.177Z DEBUG 3224 --- [prod-app-02] [84410dcdcf82472594cdd51826196a65,611f9a43039a4001] com.zaxxer.hikari.pool.HikariPool                              : Transaction synchronization registered requestId=b917302754b04f2c8bb1
+2026-10-05T00:01:47.222Z DEBUG 5754 --- [prod-app-04] [ca1fd3c2956a4f1f86952e3187247e32,fcb614354f6245dc] org.springframework.security.web.FilterChainProxy              : Hikari connection returned requestId=697041fd84384a7b92cd
+05-Oct-2026 00:01:47.773 [INFO] [org.apache.catalina.core.StandardService] Pausing ProtocolHandler ["http-nio-8080"]
+10.20.24.54 - - [05/Oct/2026:00:01:48 +0000] "PATCH /api/v1/reports HTTP/1.1" 200 230962 "-" "Mozilla/5.0" durationMs=1622 requestId=2f00a57ba69045dba770
+2026-10-05T00:01:49.625Z ERROR 8844 --- [prod-app-02] [6303b4606b554ff99b935aea36efce82,f8db453375b441f5] org.apache.catalina.connector.ClientAbortException             : Downstream service returned HTTP 503
+05-Oct-2026 00:01:50.252 [INFO] [org.apache.catalina.core.StandardService] Starting Servlet engine: [Apache Tomcat/10.1.28]
